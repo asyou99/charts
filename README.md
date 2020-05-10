@@ -6,3 +6,6 @@
 4. docker-compose exec php cp .env.example .env </br>
 5. docker-compose exec php php artisan key:generate </br>
 6. add to hosts file line: '127.0.0.1  chart.loc'
+
+## Run
+1. Go to http://localhost:4200/
