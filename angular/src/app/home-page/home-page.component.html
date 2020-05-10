@@ -1,0 +1,10 @@
+<div *ngIf="departmens; else loading" class="departmens">
+  <app-chart
+    *ngFor="let department of departmens"
+    [department]="department">
+  </app-chart>
+</div>
+
+<ng-template #loading>
+  <p class="text-center">Load charts...</p>
+</ng-template>
